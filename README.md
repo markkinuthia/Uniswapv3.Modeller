@@ -1,6 +1,8 @@
 # Uniswapv3.Modeller
-A Package for analysing UniswapV3 Data
-This is an improvement of the uniswappeR package by Omnia Analytics (https://github.com/Omni-Analytics-Group/uniswappeR), which analyszes data from V2
+A Package for analysing UniswapV3 Data .
+
+This is an improvement of the uniswappeR package by Omnia Analytics (https://github.com/Omni-Analytics-Group/uniswappeR), which analyszes data from V2.
+
 I have applied the same concept and created a package for V3 that analyzes various aspects of the Uniswap V3 protocol.
 
 
