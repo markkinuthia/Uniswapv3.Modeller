@@ -6,7 +6,7 @@ This is an improvement of the uniswappeR package by Omnia Analytics (https://git
 I have applied the same concept and created a package for V3 that analyzes various aspects of the Uniswap V3 protocol.
 
 
-##Walkthrough
+#Walkthrough
 Ensure the below packages are pre-intalled 
 ###library(MASS)
 ###library(scales)
@@ -18,7 +18,7 @@ Ensure the below packages are pre-intalled
 ###library(lubridate)
 
 
-###Example 1
+#Example 1
 factory_stats_v3(user_address = "0x0000000000000000000000000000000000000000")
 
 Result: Information below 
@@ -26,7 +26,7 @@ Result: Information below
   <chr>       <chr> <chr>     <chr>   <chr>          <chr>          <chr>       
 1 0x00000000~ 0x1F~ 5863      116977~ 426285832403.~ 133231342.340~ 802287125.5~
 
- ###Example 2
+#Example 2
 Tick_stats_v3(pool_address = "0xc2e9f25be6257c210d7adf0d4cd6e3e881ba25f8")
 
 Result: Column names->
@@ -34,7 +34,7 @@ Result: Column names->
 [5] "liquidityGross" "liquidityNet"   "price0"         "price1"        
 [9] "volumeToken0"   "volumeToken1"   "volumeUSD"
 
-###Example 3
+#Example 3
 uniswap_day_stats_v3() 
 
  Result: Column names->  
@@ -42,7 +42,7 @@ uniswap_day_stats_v3()
 [4] "volumeETH"          "volumeUSDUntracked" "feesUSD"           
 [7] "txCount"            "tvlUSD"
   
- ###Example 4
+ #Example 4
  token_stats_v3(token_address = "0x1f9840a85d5af5bf1d1762f925bdaddc4201f984")
  
  Result : Summary 
@@ -63,7 +63,7 @@ uniswap_day_stats_v3()
  $ derivedETH                  : chr "0.003675081597148297925570648492286579"
   
   
- ###Example 5
+ #Example 5
  Token_stats_daily_v3(token_address = "0x1f9840a85d5af5bf1d1762f925bdaddc4201f984")
   
   Result : Column names
