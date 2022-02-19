@@ -7,6 +7,8 @@ I have applied the same concept and created a package for V3 that analyzes vario
 
 
 ## Walkthrough
+Link to OneDrive of the **video presentations** (https://drive.google.com/drive/folders/1FD12SNFD3B6LgkbanpR5HFH2_8ZoRv98)
+
 Ensure the below packages are pre-intalled 
 ### library(MASS)
 ### library(scales)
